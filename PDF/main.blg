@@ -1,17 +1,24 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
-[1] Config.pm:310> INFO - Logfile is 'PDF/main.blg'
-[110] biber-darwin:340> INFO - === Sat Jan 27, 2024, 15:19:02
-[132] Biber.pm:418> INFO - Reading 'PDF/main.bcf'
-[249] Biber.pm:972> INFO - Found 7 citekeys in bib section 0
-[265] Biber.pm:4383> INFO - Processing section 0
-[278] Biber.pm:4574> INFO - Looking for bibtex file 'literatur.bib' for section 0
-[280] bibtex.pm:1713> INFO - LaTeX decoding ...
-[297] bibtex.pm:1518> INFO - Found BibTeX data source 'literatur.bib'
-[408] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[408] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[408] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[408] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[414] bbl.pm:654> INFO - Writing 'PDF/main.bbl' with encoding 'UTF-8'
-[420] bbl.pm:757> INFO - Output to PDF/main.bbl
-[420] Biber.pm:130> WARN - ISBN '978-0-521-64222-4 978-0-521-63921-7' in entry 'bornPrinciplesOpticsElectromagnetic1999' is invalid - run biber with '--validate_datamodel' for details.
-[420] Biber.pm:132> INFO - WARNINGS: 1
+[0] Config.pm:310> INFO - Logfile is 'PDF/main.blg'
+[111] biber-darwin:340> INFO - === Wed Jan 31, 2024, 20:41:40
+[133] Biber.pm:418> INFO - Reading 'PDF/main.bcf'
+[278] Biber.pm:972> INFO - Found 7 citekeys in bib section 0
+[302] Biber.pm:4383> INFO - Processing section 0
+[327] Biber.pm:4574> INFO - Looking for bibtex file 'literatur.bib' for section 0
+[336] bibtex.pm:1713> INFO - LaTeX decoding ...
+[374] bibtex.pm:1518> INFO - Found BibTeX data source 'literatur.bib'
+[507] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[507] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[508] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[508] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[515] bbl.pm:654> INFO - Writing 'PDF/main.bbl' with encoding 'UTF-8'
+[523] bbl.pm:757> INFO - Output to PDF/main.bbl
+[523] Biber.pm:130> WARN - Entry 'klevanskyTDLASTunableLaser2021' (literatur.bib): Invalid format '2021-10' of date field 'date' - ignoring
+[524] Biber.pm:130> WARN - Entry 'bornPrinciplesOpticsElectromagnetic1999' (literatur.bib): Invalid format '1999' of date field 'date' - ignoring
+[524] Biber.pm:130> WARN - ISBN '978-0-521-64222-4 978-0-521-63921-7' in entry 'bornPrinciplesOpticsElectromagnetic1999' is invalid - run biber with '--validate_datamodel' for details.
+[524] Biber.pm:130> WARN - Entry 'hechtOptik2005' (literatur.bib): Invalid format '2005' of date field 'date' - ignoring
+[524] Biber.pm:130> WARN - Entry 'lipsonOptik1997' (literatur.bib): Invalid format '1997' of date field 'date' - ignoring
+[524] Biber.pm:130> WARN - Entry 'niedrigOptikWellenUnd2004' (literatur.bib): Invalid format '2004' of date field 'date' - ignoring
+[524] Biber.pm:130> WARN - Entry 'herzbergMolecularSpectraMolecular2013' (literatur.bib): Invalid format '2013' of date field 'date' - ignoring
+[524] Biber.pm:130> WARN - Entry 'schraderInfraredRamanSpectroscopy1995' (literatur.bib): Invalid format '1995' of date field 'date' - ignoring
+[524] Biber.pm:132> INFO - WARNINGS: 8

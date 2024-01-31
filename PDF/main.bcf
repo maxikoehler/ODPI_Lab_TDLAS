@@ -2356,12 +2356,17 @@
     <bcf:citekey order="3">herzbergMolecularSpectraMolecular2013</bcf:citekey>
     <bcf:citekey order="3">schraderInfraredRamanSpectroscopy1995</bcf:citekey>
     <bcf:citekey order="4">klevanskyTDLASTunableLaser2021</bcf:citekey>
-    <bcf:citekey order="5">bornPrinciplesOpticsElectromagnetic1999</bcf:citekey>
-    <bcf:citekey order="6">hechtOptik2005</bcf:citekey>
-    <bcf:citekey order="7">lipsonOptik1997</bcf:citekey>
-    <bcf:citekey order="8">niedrigOptikWellenUnd2004</bcf:citekey>
-    <bcf:citekey order="9">herzbergMolecularSpectraMolecular2013</bcf:citekey>
-    <bcf:citekey order="10">schraderInfraredRamanSpectroscopy1995</bcf:citekey>
+    <bcf:citekey order="5">klevanskyTDLASTunableLaser2021</bcf:citekey>
+    <bcf:citekey order="6">klevanskyTDLASTunableLaser2021</bcf:citekey>
+    <bcf:citekey order="7">klevanskyTDLASTunableLaser2021</bcf:citekey>
+    <bcf:citekey order="8">klevanskyTDLASTunableLaser2021</bcf:citekey>
+    <bcf:citekey order="9">klevanskyTDLASTunableLaser2021</bcf:citekey>
+    <bcf:citekey order="10">bornPrinciplesOpticsElectromagnetic1999</bcf:citekey>
+    <bcf:citekey order="11">hechtOptik2005</bcf:citekey>
+    <bcf:citekey order="12">lipsonOptik1997</bcf:citekey>
+    <bcf:citekey order="13">niedrigOptikWellenUnd2004</bcf:citekey>
+    <bcf:citekey order="14">herzbergMolecularSpectraMolecular2013</bcf:citekey>
+    <bcf:citekey order="15">schraderInfraredRamanSpectroscopy1995</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

@@ -38,10 +38,8 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{langid}{Englisch}
-      \field{month}{10}
       \field{title}{TDLAS – Tunable laser diode absorption spectroscopy}
-      \field{year}{2021}
-      \field{dateera}{ce}
+      \warn{\item Entry 'klevanskyTDLASTunableLaser2021' (literatur.bib): Invalid format '2021-10' of date field 'date' - ignoring}
     \endentry
     \entry{bornPrinciplesOpticsElectromagnetic1999}{book}{}
       \name{author}{2}{}{%
@@ -77,12 +75,11 @@
       \field{pagetotal}{952}
       \field{shorttitle}{Principles of Optics}
       \field{title}{Principles of Optics: Electromagnetic Theory of Propagation, Interference and Diffraction of Light}
-      \field{year}{1999}
-      \field{dateera}{ce}
       \verb{file}
       \verb /Users/maxikoehler/Zotero/storage/56PY2HRG/Born und Wolf - 1999 - Principles of optics electromagnetic theory of pr.pdf
       \endverb
       \keyw{Optics}
+      \warn{\item Entry 'bornPrinciplesOpticsElectromagnetic1999' (literatur.bib): Invalid format '1999' of date field 'date' - ignoring}
     \endentry
     \entry{hechtOptik2005}{book}{}
       \name{author}{2}{}{%
@@ -118,11 +115,10 @@
       \field{langid}{german}
       \field{pagetotal}{1116}
       \field{title}{Optik}
-      \field{year}{2005}
-      \field{dateera}{ce}
       \verb{file}
       \verb /Users/maxikoehler/Zotero/storage/SHE6LAB4/Hecht und Hecht - 2005 - Optik.pdf
       \endverb
+      \warn{\item Entry 'hechtOptik2005' (literatur.bib): Invalid format '2005' of date field 'date' - ignoring}
     \endentry
     \entry{lipsonOptik1997}{book}{}
       \name{author}{3}{}{%
@@ -163,8 +159,7 @@
       \field{isbn}{978-3-642-59053-5}
       \field{langid}{german}
       \field{title}{Optik}
-      \field{year}{1997}
-      \field{dateera}{ce}
+      \warn{\item Entry 'lipsonOptik1997' (literatur.bib): Invalid format '1997' of date field 'date' - ignoring}
     \endentry
     \entry{niedrigOptikWellenUnd2004}{book}{}
       \name{editor}{1}{}{%
@@ -198,8 +193,7 @@
       \field{series}{Lehrbuch der Experimentalphysik / Bergmann; Schaefer}
       \field{shorttitle}{Optik}
       \field{title}{Optik: Wellen- und Teilchenoptik: Part 1}
-      \field{year}{2004}
-      \field{dateera}{ce}
+      \warn{\item Entry 'niedrigOptikWellenUnd2004' (literatur.bib): Invalid format '2004' of date field 'date' - ignoring}
     \endentry
     \entry{herzbergMolecularSpectraMolecular2013}{book}{}
       \name{author}{2}{}{%
@@ -231,8 +225,7 @@
       \field{isbn}{978-1-4757-0963-6}
       \field{langid}{english}
       \field{title}{Molecular Spectra and Molecular Structure. 4, {{Constants}} of Diatomic Molecules}
-      \field{year}{2013}
-      \field{dateera}{ce}
+      \warn{\item Entry 'herzbergMolecularSpectraMolecular2013' (literatur.bib): Invalid format '2013' of date field 'date' - ignoring}
     \endentry
     \entry{schraderInfraredRamanSpectroscopy1995}{book}{}
       \name{author}{2}{}{%
@@ -269,11 +262,10 @@
       \field{langid}{english}
       \field{shorttitle}{Infrared and {{Raman}} Spectroscopy}
       \field{title}{Infrared and {{Raman}} Spectroscopy: Methods and Applications}
-      \field{year}{1995}
-      \field{dateera}{ce}
       \verb{file}
       \verb /Users/maxikoehler/Zotero/storage/B9IV5JCA/Schrader und Bougeard - 1995 - Infrared and Raman spectroscopy methods and appli.pdf
       \endverb
+      \warn{\item Entry 'schraderInfraredRamanSpectroscopy1995' (literatur.bib): Invalid format '1995' of date field 'date' - ignoring}
     \endentry
   \enddatalist
 \endrefsection

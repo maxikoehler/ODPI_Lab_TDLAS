@@ -293,3 +293,16 @@
 \ofoot[\pagemark]{\pagemark}	% Fußzeile mit Seitenzahl außen
 \renewcommand*\chapterpagestyle{plain.scrheadings}
 % \renewcommand*\partpagestyle{plain.scrheadings}		%Bei Verwendung von Parts als Überschriftenebene: Setzen des Pagestyles global
+
+% Text in between enumerate Points
+\newcounter{saveenumerate}
+\makeatletter
+\newcommand{\enumeratext}[1]{%
+\setcounter{saveenumerate}{\value{enum\romannumeral\the\@enumdepth}}
+\end{enumerate}
+#1 
+\vspace{6pt}
+\begin{enumerate}
+\setcounter{enum\romannumeral\the\@enumdepth}{\value{saveenumerate}}%
+}
+\makeatother

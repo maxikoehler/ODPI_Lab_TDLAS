@@ -51,7 +51,8 @@
       },
    papEnd/.style = {
          rectangle,
-         draw, 
+         very thick,
+         draw = red,
          align = center, 
          text width = 3cm, 
          text badly centered,
@@ -94,6 +95,7 @@
    papProcess/.style = {
          rectangle,
          draw,
+         fill = lightgray,
          align = center, 
          text width = 3cm, 
          text badly centered,
@@ -108,6 +110,13 @@
          -stealth,
          font=\ttfamily\footnotesize,
          %line width = 1,
+      },
+   dot/.style = {
+         circle,
+         draw,
+         align = center, 
+         inner sep = 1 pt,
+         fill = black,
       },
 }
 \newcommand{\papYes}{ja}
