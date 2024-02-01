@@ -151,11 +151,55 @@ The evaluation procedure is shown in \autoref{fig:scheme-eval}. For this calcula
 \chapter{Results}
 \label{chap:results}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Data presentation and preparation}
+\commenting{
+    Plots:
+    \begin{itemize}
+        \item calibration curve over lambda
+        \item absorption spectra
+        \item laser signal, absorption signal, transmission signal over lambda
+        \item extinction coefficient
+    \end{itemize}
+}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Evaluation}
+
+\begin{figure}[!htb]
+    \centering
+    \input{images/02kapitel/calibration-factor.pgf}
+    \caption{Calibration factor over wavelength}
+    \label{fig:cal-factor}
+\end{figure}
+
+\begin{figure}[!htb]
+    \centering
+    \input{images/02kapitel/rel-absorbtion.pgf}
+    \caption[Relative absorption spectra]{Relative absorption behavior of $\mathrm{DMSO}$ and $\mathrm{EtSO_4}$ over the analyzed spectrum}
+    \label{fig:rel-absorption}
+\end{figure}
+
+\begin{figure}[!htb]
+    \centering
+    \begin{turn}{90}
+        \input{images/02kapitel/laser-abs-trans.pgf}
+    \end{turn}
+    \caption[Comparison of origin, transmittive and absorbed signals]{Comparison of laser signal intensity, transmission intensity, and absorption intensity; top for $\mathrm{DMSO}$ and bottom for $\mathrm{EtSO_4}$ over the analyzed spectrum}
+    \label{fig:laser-abs-trans}
+\end{figure}
+
+\begin{figure}[!htb]
+    \centering
+    \input{images/02kapitel/ext-fac.pgf}
+    \caption[Extinction factor over the spectrum]{Extinction factor of $\mathrm{DMSO}$ and $\mathrm{EtSO_4}$ over the analyzed spectrum}
+    \label{fig:ext-factor}
+\end{figure}
+
+\begin{figure}[!htb]
+    \centering
+    \input{images/02kapitel/extinction.pgf}
+    \caption[Extinction over the spectrum]{Extinction of $\mathrm{DMSO}$ and $\mathrm{EtSO_4}$ over the analyzed spectrum}
+    \label{fig:extinction}
+\end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Error discussion}

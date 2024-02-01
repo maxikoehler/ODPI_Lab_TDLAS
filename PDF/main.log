@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.8)  31 JAN 2024 22:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.8)  1 FEB 2024 20:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1660,29 +1660,27 @@ Class scrreprt Warning: \float@addtolists detected!
 (scrreprt)              a package that still implements the
 (scrreprt)              deprecated \float@addtolist interface.
 
+LaTeX Font Info:    Trying to load font information for TS1+bch on input line 50.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ts1bch.fd
+File: ts1bch.fd 2004/10/18 font definitions for TS1/bch.
 )
-Runaway argument?
-{ \begin {itemize} 
-/Users/maxikoehler/Documents/GitHub/ODPI_Lab_TDLAS/main.tex:100: File ended while scanning use of \commenting.
-<inserted text> 
-                \par 
-l.100 	}
-        
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
-(./content/02kapitel.tex
 Overfull \vbox (7.51999pt too high) has occurred while \output is active []
 
  [1
 
 
 
-]
+]) (./content/02kapitel.tex
+
+LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
+(Font)              using `T1/bch/m/sc' instead on input line 5.
+
+
+Overfull \vbox (7.51999pt too high) has occurred while \output is active []
+
+ [2]
 chapter 2.
-<images//02kapitel/laser-simple.png, id=105, 402.50375pt x 264.99pt>
+<images//02kapitel/laser-simple.png, id=123, 402.50375pt x 264.99pt>
 File: images//02kapitel/laser-simple.png Graphic file (type png)
 <use images//02kapitel/laser-simple.png>
 Package pdftex.def Info: images//02kapitel/laser-simple.png  used on input line 20.
@@ -1690,10 +1688,10 @@ Package pdftex.def Info: images//02kapitel/laser-simple.png  used on input line 
 
 Overfull \vbox (7.51999pt too high) has occurred while \output is active []
 
- [2
+ [3
 
  <./images//02kapitel/laser-simple.png>]
-<images//02kapitel/littrow-laser.png, id=122, 985.6825pt x 778.91pt>
+<images//02kapitel/littrow-laser.png, id=139, 985.6825pt x 778.91pt>
 File: images//02kapitel/littrow-laser.png Graphic file (type png)
 <use images//02kapitel/littrow-laser.png>
 Package pdftex.def Info: images//02kapitel/littrow-laser.png  used on input line 29.
@@ -1706,9 +1704,9 @@ LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
 
 Overfull \vbox (7.51999pt too high) has occurred while \output is active []
 
- [3 <./images//02kapitel/littrow-laser.png>]
+ [4 <./images//02kapitel/littrow-laser.png>]
 chapter 3.
-<images//02kapitel/measurement_setup.png, id=132, 1398.22375pt x 866.23625pt>
+<images//02kapitel/measurement_setup.png, id=149, 1398.22375pt x 866.23625pt>
 File: images//02kapitel/measurement_setup.png Graphic file (type png)
 <use images//02kapitel/measurement_setup.png>
 Package pdftex.def Info: images//02kapitel/measurement_setup.png  used on input line 50.
@@ -1716,7 +1714,7 @@ Package pdftex.def Info: images//02kapitel/measurement_setup.png  used on input 
 
 Overfull \vbox (7.51999pt too high) has occurred while \output is active []
 
- [4
+ [5
 
  <./images//02kapitel/measurement_setup.png>]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 97.
@@ -1744,7 +1742,7 @@ LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
 
 Overfull \vbox (7.51999pt too high) has occurred while \output is active []
 
- [5]
+ [6]
 
 LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
 (Font)              using `T1/bch/m/sc' instead on input line 144.
@@ -1752,7 +1750,7 @@ LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
 
 Overfull \vbox (7.51999pt too high) has occurred while \output is active []
 
- [6]
+ [7]
 
 LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
 (Font)              using `T1/bch/m/sc' instead on input line 151.
@@ -1760,24 +1758,48 @@ LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
 
 Overfull \vbox (7.51999pt too high) has occurred while \output is active []
 
- [7]
+ [8]
 chapter 4.
-) (./content/03kapitel.tex
-Overfull \vbox (7.51999pt too high) has occurred while \output is active []
-
- [8
-
-]
-chapter 5.
-)
+(./images/02kapitel/calibration-factor.pgf) (./images/02kapitel/rel-absorbtion.pgf) (./images/02kapitel/laser-abs-trans.pgf) (./images/02kapitel/ext-fac.pgf) (./images/02kapitel/extinction.pgf)) (./content/03kapitel.tex
 Overfull \vbox (7.51999pt too high) has occurred while \output is active []
 
  [9
 
 ]
+
+LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
+(Font)              using `T1/bch/m/sc' instead on input line 3.
+
+
 Overfull \vbox (7.51999pt too high) has occurred while \output is active []
 
- [10
+ [10]
+
+LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
+(Font)              using `T1/bch/m/sc' instead on input line 3.
+
+
+Overfull \vbox (7.51999pt too high) has occurred while \output is active []
+
+ [11]
+
+LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
+(Font)              using `T1/bch/m/sc' instead on input line 3.
+
+
+Overfull \vbox (7.51999pt too high) has occurred while \output is active []
+
+ [12]
+chapter 5.
+)
+Overfull \vbox (7.51999pt too high) has occurred while \output is active []
+
+ [13
+
+]
+Overfull \vbox (7.51999pt too high) has occurred while \output is active []
+
+ [14
 
 ]
 chapter without number
@@ -1793,18 +1815,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 58584 strings out of 478268
- 1326365 string characters out of 5846347
- 2377636 words of memory out of 5000000
- 75497 multiletter control sequences out of 15000+600000
- 526276 words of font info for 183 fonts, out of 8000000 for 9000
+ 58700 strings out of 478268
+ 1328546 string characters out of 5846347
+ 2394985 words of memory out of 5000000
+ 75562 multiletter control sequences out of 15000+600000
+ 529370 words of font info for 201 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  113i,20n,109p,10669b,2469s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on PDF/main.pdf (16 pages, 948695 bytes).
+Output written on PDF/main.pdf (20 pages, 967392 bytes).
 PDF statistics:
- 291 PDF objects out of 1000 (max. 8388607)
- 226 compressed objects within 3 object streams
- 53 named destinations out of 1000 (max. 500000)
- 49294 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 320 PDF objects out of 1000 (max. 8388607)
+ 251 compressed objects within 3 object streams
+ 66 named destinations out of 1000 (max. 500000)
+ 51846 words of extra memory for PDF output out of 61914 (max. 10000000)
 
