@@ -7,7 +7,7 @@
 
 The following theoretical basics are summarized from the standard literature in optics \autocite{bornPrinciplesOpticsElectromagnetic1999,hechtOptik2005,lipsonOptik1997,niedrigOptikWellenUnd2004} and more specifically Raman application \autocite{herzbergMolecularSpectraMolecular2013,schraderInfraredRamanSpectroscopy1995}. In addition the given handbook \autocite{klevanskyTDLASTunableLaser2021} is used as well.
 
-The central principle TDLAS relies on, is the absorption of light. Next to absorption there are more processes which can occur with an incoming photon or light beam, such as scattering, reflection, or diffraction. In this case the focus is only on the first. Absortion of photons, or electromagnetic radiation, can only occur, if the struck molecule matches the energy of the photon with the energy difference of two of its discrete energy levels. This is called the resonance condition. This energy can be expressed as
+The central principle TDLAS relies on, is the absorption of light. Next to absorption, there are more processes which can occur with an incoming photon or light beam, such as scattering, reflection, or diffraction. In this case the focus is only on the first. Absortion of photons, or electromagnetic radiation, can only occur, if the struck molecule matches the energy of the photon with the energy difference of two of its discrete energy levels. This is called the resonance condition. This energy can be expressed as
 \begin{align}
     E=h \cdot v \nonumber .
 \end{align}
@@ -151,18 +151,12 @@ The evaluation procedure is shown in \autoref{fig:scheme-eval}. For this calcula
 \chapter{Results}
 \label{chap:results}
 
-\commenting{
-    Plots:
-    \begin{itemize}
-        \item calibration curve over lambda
-        \item absorption spectra
-        \item laser signal, absorption signal, transmission signal over lambda
-        \item extinction coefficient
-    \end{itemize}
-}
+The following chapter shall present the preparations and results from the TDLAS experiment. A discussion of possible errors and improvements shall be given afterward.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Evaluation}
+% \section{Evaluation}
+
+Starting with the calibration measurement to normalize both pathways A and B, the calibration curve is plotted in \autoref{fig:cal-factor}. The calibration factor $KF$ is wavelength-dependent and concerns the discrete measurement plotted with discrete data points. The values pend around $0.75$ and $0.95$, thus are similar, but yet different on each wavelength. This can result through a different quantum efficiency for the discrete wavelengths or through disturbing substances in the measurement path.
 
 \begin{figure}[!htb]
     \centering
@@ -171,35 +165,99 @@ The evaluation procedure is shown in \autoref{fig:scheme-eval}. For this calcula
     \label{fig:cal-factor}
 \end{figure}
 
-\begin{figure}[!htb]
+% \begin{table}[!htb]
+%     \centering
+%     \small
+%     \caption[Discrete calibration values]{Discrete values for the calibration factor from the calibration of channel A and B}
+%     \label{tab:calib-discrete}
+%     \vspace{12pt}
+%     \begin{tabular}{|l|l|}
+%         \hline
+%         wavelength in $\mathrm{nm}$ & $KF$ \\ \hline \hline
+%         $1891$ &	$0.81$ \\ \hline
+%         $1898$ &	$0.81$ \\ \hline
+%         $1906$ &	$0.82$ \\ \hline
+%         $1914$ &	$0.81$ \\ \hline
+%         $1921$ &	$0.77$ \\ \hline
+%         $1928$ &	$0.76$ \\ \hline
+%         $1936$ &	$0.89$ \\ \hline
+%         $1943$ &	$0.93$ \\ \hline
+%         $1950$ &	$0.82$ \\ \hline
+%         $1957$ &	$0.87$ \\ \hline
+%         $1964$ &	$0.91$ \\ \hline
+%         $1970$ &	$0.81$ \\ \hline
+%         $1977$ &	$0.90$ \\ \hline
+%         $1984$ &	$0.90$ \\ \hline
+%         $1990$ &	$0.83$ \\ \hline
+%         $1997$ &	$0.96$ \\ \hline
+%         $2003$ &	$0.91$ \\ \hline
+%         $2009$ &	$0.81$ \\ \hline
+%         $2016$ &	$0.84$ \\ \hline
+%         $2022$ &	$0.84$ \\ \hline
+%     \end{tabular}
+% \end{table}
+
+The absorption spectra for $\mathrm{DMSO}$ and $\mathrm{EtSO_4}$ are shown in \autoref{fig:rel-absorption}. The wavelengths for determination of the extinction and extinction coefficient are marked as vertical, purple, and dashed lines. It can be observed, that both substances have similar behavior in terms of which wavelengths are more and less absorbed, due to the spectrum shape. It can be added, that $DMSO$ is significantly less absorption active and thus transmits more light. The absolute transmission and absorption are illustrated in \autoref{fig:laser-abs-trans}, while the original laser signal is added. Noticeable is however the very high absorption rate of $\mathrm{EtSO_4}$ in the wavelength region around $1940~\mathrm{nm}$. Another abnormality is the not smooth but rather jumping intensity of the laser incoming, as well transmission and absorption signal. Reasons for that can rely on the laser itself, having more or less efficiencies dependent on the emitted wavelength. Another explanation could be the quantum efficiency of the photodiodes or disturbing substances like fingerprints on the surface of the cuvette.
+
+\begin{figure}[H]
     \centering
     \input{images/02kapitel/rel-absorbtion.pgf}
     \caption[Relative absorption spectra]{Relative absorption behavior of $\mathrm{DMSO}$ and $\mathrm{EtSO_4}$ over the analyzed spectrum}
     \label{fig:rel-absorption}
 \end{figure}
 
-\begin{figure}[!htb]
+\begin{figure}
     \centering
     \begin{turn}{90}
         \input{images/02kapitel/laser-abs-trans.pgf}
     \end{turn}
-    \caption[Comparison of origin, transmittive and absorbed signals]{Comparison of laser signal intensity, transmission intensity, and absorption intensity; top for $\mathrm{DMSO}$ and bottom for $\mathrm{EtSO_4}$ over the analyzed spectrum}
+    \caption[Comparison of origin, transmitted and absorbed signals]{Comparison of laser signal intensity, transmission intensity, and absorption intensity; top for $\mathrm{DMSO}$ and bottom for $\mathrm{EtSO_4}$ over the analyzed spectrum}
     \label{fig:laser-abs-trans}
 \end{figure}
 
-\begin{figure}[!htb]
-    \centering
-    \input{images/02kapitel/ext-fac.pgf}
-    \caption[Extinction factor over the spectrum]{Extinction factor of $\mathrm{DMSO}$ and $\mathrm{EtSO_4}$ over the analyzed spectrum}
-    \label{fig:ext-factor}
-\end{figure}
+The extinction $E$ and the extinction factor are plotted in \autoref{fig:extinction}, and the discrete values for the desired wavelengths are shown in \autoref{tab:extinction}. As seen in \autoref{fig:laser-abs-trans}, the absorption is very high in the region between $1900~\mathrm{nm}$ and $1960~\mathrm{nm}$, especially for $\mathrm{EtSO_4}$. The order of the remaining transmission signal is between $2$ and $7$, while the standard deviation for the dark signal is around $1$ (dark signal itself $15~\mathrm{\frac{A}{mV}}$). This shows that this wavelength region is highly error-prone, especially for relative calculations. Improvements would be a higher laser power, or a smaller cuvette, resulting in a higher signal intensity.
 
-\begin{figure}[!htb]
+\begin{figure}[H]
     \centering
     \input{images/02kapitel/extinction.pgf}
-    \caption[Extinction over the spectrum]{Extinction of $\mathrm{DMSO}$ and $\mathrm{EtSO_4}$ over the analyzed spectrum}
+    \caption[Extinction and extinction factor over the spectrum]{Extinction and extinction factor of $\mathrm{DMSO}$ and $\mathrm{EtSO_4}$ over the analyzed spectrum; vertical, purple and dashed lines represent the desired wavelengths for the extinction calculation }
     \label{fig:extinction}
 \end{figure}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Error discussion}
+Further regarding the three higher wavelength extinction calculations, it can be said, that they are directly located in the signal peaks of both transmission and incoming laser signal for $\mathrm{EtSO_4}$, for $\mathrm{DMSO}$ this is the case for the upper two extinction factors. With this knowledge, it can be assumed that the relative errors are comparably low for the two relative extinctions and extinction factors at the wavelengths $1977~\mathrm{nm}$ and $2003~\mathrm{nm}$.
+
+\begin{table}[!htb]
+    \centering
+    \small
+    \caption[Extinction and extinction factor results]{Extinction and extinction factor at desired wavelengths for $\mathrm{DMSO}$ and $\mathrm{EtSO_4}$}
+    \label{tab:extinction}
+    \vspace{12pt}
+    \begin{tabular}{|r|c|c|}
+        \hline
+        \rowcolor{lightgray} wavelength in $\mathrm{nm}$ & extinction factor in $\mathrm{\frac{cm^2}{mol}}$ & extinction \\ \hline \hline
+        \multicolumn{3}{|c|}{$\mathrm{DMSO}$} \\ \hline \hline
+        $1906$ & $72$ & $0.51$ \\ \hline
+        $1950$ & $126$ & $0.89$ \\ \hline
+        $1977$ & $64$ & $0.45$ \\ \hline
+        $2003$ & $43$ & $0.30$ \\ \hline \hline
+        \multicolumn{3}{|c|}{$\mathrm{EtSO_4}$} \\ \hline \hline
+        $1906$ & $364$ & $0.95$ \\ \hline
+        $1950$ & $634$ & $1.66$ \\ \hline
+        $1977$ & $295$ & $0.77$ \\ \hline
+        $2003$ & $184$ & $0.84$ \\ \hline
+    \end{tabular}
+\end{table}
+
+Errors concerning the measurement channels can be stated as follows. In general, it can be said, that high signal intensities put small manufacturing defects into perspective. Also using the same equipment or signal pathways for as long as possible is beneficial for getting as little error as possible from the measurement.
+\begin{enumerate}
+    \item The intensifiers have a deviation in their intensification rate
+    \enumeratext{
+        This systematic error is similar to the cause for calibration of both measuring channels and thus is normally eliminated by the correction factor $KF$. However, when the difference between the intensifiers becomes large, the effect of the photodiode difference can be multiplied. In case of a large intensification of a larger signal of the CCD, the difference in signal becomes bigger and thus the calibration factor is very different from one. In case of a large intensification of the smaller signal, the error itself gets multiplied and large. 
+    }
+    \item The intensity is near the intensity of the dark signal
+    \enumeratext{
+        The same effect can occur, as discussed in the previous paragraph for the very high absorption rate and resulting large relative error. When the dark signal and its standard deviation are getting bigger and in the range of the signal itself, very little signal intensity is left to interpret. This can then be (relatively) error-prone.
+    }
+    \item Fluctuating temperature of the experiment
+\end{enumerate}
+    With this last error, an increase in thermal noise over the measurement time due to the heating of the sensor or a signal shift from the specimen is considered. When the measurement frequency is high and the relaxation time low, heating can occur and thus a gain in thermal noise in the CCD. In the case of the specimen signal, a shift, intensification or decrease of the transmission signal could be observed.
