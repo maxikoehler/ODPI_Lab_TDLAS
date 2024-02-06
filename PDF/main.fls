@@ -1943,15 +1943,15 @@ INPUT ./images//02kapitel/laser-simple.png
 INPUT ./images//02kapitel/laser-simple.png
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/bitstrea/charter/bchr8t.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/bitstrea/charter/bchb8t.tfm
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/bitstrea/charter/bchb8t.vf
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/bitstrea/charter/bchb8r.tfm
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/bitstrea/charter/bchr8t.vf
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/bitstrea/charter/bchr8r.tfm
 INPUT ./images//02kapitel/littrow-laser.png
 INPUT ./images//02kapitel/littrow-laser.png
 INPUT images//02kapitel/littrow-laser.png
 INPUT ./images//02kapitel/littrow-laser.png
 INPUT ./images//02kapitel/littrow-laser.png
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/bitstrea/charter/bchb8t.vf
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/bitstrea/charter/bchb8r.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/bitstrea/charter/bchr8t.vf
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/bitstrea/charter/bchr8r.tfm
 INPUT ./images//02kapitel/measurement_setup.png
 INPUT ./images//02kapitel/measurement_setup.png
 INPUT images//02kapitel/measurement_setup.png
@@ -2021,6 +2021,7 @@ INPUT /usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.en
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb

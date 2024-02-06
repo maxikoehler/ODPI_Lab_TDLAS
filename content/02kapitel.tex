@@ -5,24 +5,28 @@
 \chapter{Theoretical basics}
 \label{chap:theoretical}
 
-The following theoretical basics are summarized from the standard literature in optics \autocite{bornPrinciplesOpticsElectromagnetic1999,hechtOptik2005,lipsonOptik1997,niedrigOptikWellenUnd2004} and more specifically Raman application \autocite{herzbergMolecularSpectraMolecular2013,schraderInfraredRamanSpectroscopy1995}. In addition the given handbook \autocite{klevanskyTDLASTunableLaser2021} is used as well.
+The following theoretical basics are summarized from the standard literature in optics \autocite{bornPrinciplesOpticsElectromagnetic1999,hechtOptik2005,lipsonOptik1997,niedrigOptikWellenUnd2004} and more specifically Raman application \autocite{herzbergMolecularSpectraMolecular2013,schraderInfraredRamanSpectroscopy1995}. In addition, the given handbook \autocite{klevanskyTDLASTunableLaser2021} is used as well.
 
-The central principle TDLAS relies on, is the absorption of light. Next to absorption, there are more processes which can occur with an incoming photon or light beam, such as scattering, reflection, or diffraction. In this case the focus is only on the first. Absortion of photons, or electromagnetic radiation, can only occur, if the struck molecule matches the energy of the photon with the energy difference of two of its discrete energy levels. This is called the resonance condition. This energy can be expressed as
+The central principle TDLAS relies on is the absorption of light. Next to absorption, more processes can occur with an incoming photon or light beam, such as scattering, reflection, or diffraction. In this case, the focus is only on the first. Absorption of photons, or electromagnetic radiation, can only occur if the struck molecule matches the energy of the photon with the energy difference of two of its discrete energy levels. This is called the resonance condition. This energy can be expressed as
 \begin{align}
     E=h \cdot v \nonumber .
 \end{align}
-The absorbtion can be visualized when hitting the molecule with a bandwith light source. When analyzing the spectrum after the interaction, there are gaps or narrow dark bars occuring in the spectrum. Smaller molecules tend to form discrete lines, larger molecules more washed out reduction of the light spectrum. When using lower enrgy containing infrared radiation (IR), more vibrational or rotational states in the electronic ground state of the molecule are penetrated. In comparison the usage of higher energy contain ultra violet light, the electonic ground state can be elevated as well, and other unwanted effects such as flourescense can occur. With the IR absorption, the generated spectrum and its gaps are acting like a fingerprint for the molecule. Species determination is easily possible that way.
+The absorption can be visualized when hitting the molecule with a bandwidth light source. When analyzing the spectrum after the interaction, gaps or narrow dark bars occur in the spectrum. Smaller molecules tend to form discrete lines, and larger molecules form a more washed-out reduction of the light spectrum. When using lower energy-containing infrared radiation (IR), more vibrational or rotational states in the electronic ground state of the molecule are penetrated. In comparison the usage of higher energy contains ultraviolet light, the electronic ground state can be elevated as well, and other unwanted effects such as fluorescence can occur. With the IR absorption, the generated spectrum and its gaps act like a fingerprint for the molecule. Species determination is easily possible that way.
 
-% The interpretation of the gathered absorbtion signals, resp. the understanding of the quantitative and qualitative meaning, is further elaborated in \autoref{sec:strategy}.
+A very important formula to note is the Lambert-Beer-law:
+\begin{align}
+    E(\lambda, \epsilon, c, d, T)=-\ln\Big(\frac{I}{I_\mathrm{0}}\Big)=\epsilon(\lambda, T) \cdot c \cdot d \nonumber
+\end{align}
+This mathematical relation describes the proportionality of the absorbed amount of energy with the number or concentration of absorbing molecules. More specifically the molecules in the line of sight. $E$ corresponds to the Extinction of the radiation, $I$ the signal intensities, $\epsilon$ the extinction coefficient, the concentration $c$ and the transmission path length $d$. This formula, and other forms of it, are used in \autoref{sec:strategy} and \autoref{chap:results}.
 
 \begin{figure}[!htb]
     \centering
     \includegraphics[width=.5\textwidth]{02kapitel/laser-simple.png}
-    \caption[Components and working pronciples of a laser]{Simple working principle of a laser; simplificated components \autocite{klevanskyTDLASTunableLaser2021}}
+    \caption[Components and working principles of a laser]{Simple working principle of a laser; simplified components \autocite{klevanskyTDLASTunableLaser2021}}
     \label{fig:laser-simple}
 \end{figure}
 
-To precisely analyse the absorption spectra, a bandwith light source is not pleasent to use. A better way is the usage of a wavelength tunable laser. This can e.g. be achieved with a Littrow laser arrangement (see \autoref{fig:littrow-laser}), like in this experiment. This arrangement allows a tunable output wavelength through a variable placement of a grating, thus realised through an easy to control electrical motor. The diffraction grating reflects the first diffraction order of the laser beam back and forms a standing wave. It is used with its easy positioning for creating the needed amplification (the basic laser principle is sketched in \autoref{fig:laser-simple}). After reaching the laser threshold, the laser beam is coupled into a glass fibre and guided to the experimental setup. As a pump source a laser diode is utilized. The emitted basis wavelength is further tunable through the diode current and the temperature.
+To precisely analyze the absorption spectra, a bandwidth light source is not pleasant to use. A better way is the usage of a wavelength-tunable laser. This can e.g. be achieved with a Littrow laser arrangement (see \autoref{fig:littrow-laser}), like in this experiment. This arrangement allows a tunable output wavelength through a variable placement of a grating, thus realized through an easy-to-control electrical motor. The diffraction grating reflects the first diffraction order of the laser beam back and forms a standing wave. It is used with its easy positioning for creating the needed amplification (the basic laser principle is sketched in \autoref{fig:laser-simple}). After reaching the laser threshold, the laser beam is coupled to a glass fiber and guided to the experimental setup. As a pump source, a laser diode is utilized. The emitted basis wavelength is further tunable through the diode current and the temperature.
 
 \begin{figure}[!htb]
     \centering
@@ -37,13 +41,13 @@ To precisely analyse the absorption spectra, a bandwith light source is not plea
 \label{chap:experimental}
 
 % Following chapter shall describe the used experimental setup, the preparations before the measurements, the possible expectations and outcomes of the test and observations during the experiment. The strategy of the data evaluation and result calculation shall be explained.
-Following chapter shall describe the used experimental setup. The strategy of the data evaluation and result calculation shall be explained.
+The following chapter shall describe the used experimental setup. The strategy of the data evaluation and result calculation shall be explained.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Measurement setup and preparations}
 \label{sec:setup}
 
-A scheme of the measurement setup is illustrated in \autoref{fig:experimental-setup}. Controlling the whole setup, mainly the Littrow laser system and the chopper, and reading out the oszilloscope for data saving, is a computer. The laser signal is generated with a tunable diode laser setup (see \autoref{fig:littrow-laser}) for generating a defined bandwith (between $1891~\mathrm{nm}$ and $2022~\mathrm{nm}$) of wavelengths (see \autoref{chap:theoretical} for a functional description). This signal is split into two beams and measurement paths. The chopper is acting as a pulser, so that the substance molecules and the photo diodes can relax and deexcite between the absortion processes. Between the chopper and the photodiode the probe is placed. After an intensification of the signal, it is read out with an oszilloscope. As a consequence the measurement is transmittive. 
+A scheme of the measurement setup is illustrated in \autoref{fig:experimental-setup}. Controlling the whole setup, mainly the Littrow laser system and the chopper, and reading out the oscilloscope for data saving, is a computer. The laser signal is generated with a tunable diode laser setup (see \autoref{fig:littrow-laser}) for generating a defined bandwidth (between $1891~\mathrm{nm}$ and $2022~\mathrm{nm}$) of wavelengths (see \autoref{chap:theoretical} for a functional description). This signal is split into two beams and measurement paths. The chopper acts as a pulse so that the substance molecules and the photodiodes can relax and deexcite between the absorption processes. Between the chopper and the photodiode, the probe is placed. After an intensification of the signal, it is read out with an oscilloscope. As a consequence, the measurement is transmitted. 
 
 \begin{figure}[!htb]
     \centering
@@ -52,12 +56,12 @@ A scheme of the measurement setup is illustrated in \autoref{fig:experimental-se
     \label{fig:experimental-setup}
 \end{figure}
 
-The procedure of the measurement is like following, whereas the laboratory script \autocite{klevanskyTDLASTunableLaser2021} is giving more detailed information.
+The procedure of the measurement is like the following, whereas the laboratory script \autocite{klevanskyTDLASTunableLaser2021} gives more detailed information.
 
 \begin{enumerate}
     \item Starting up sequence
     \enumeratext{
-        For starting up the experiment, the laptop has to be boot up and the necessary software has to be started. Further, the control devices and operating temperatures have to be checked, such as laser temperature, laser current and voltage supply.
+        To start up the experiment, the laptop has to be boot up and the necessary software has to be started. Further, the control devices and operating temperatures have to be checked, such as laser temperature, laser current and voltage supply.
     }
     \item Calibration of the two measurement channels
     \enumeratext{
@@ -65,7 +69,7 @@ The procedure of the measurement is like following, whereas the laboratory scrip
     }
     \item Absorption spectrum measurement
 \end{enumerate}
-As last step, the actual measurement of both species is carried out. Pathway A is used for aquiring the absortion spectrum of the species, path B is used with an emty cuvette as a reference measurement. Important to note is the dark signal of both channels.
+As the last step, the actual measurement of both species is carried out. Pathway A is used for acquiring the absorption spectrum of the species, path B is used with an empty cuvette as a reference measurement. Important to note is the dark signal of both channels.
 \vspace{12pt}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -82,7 +86,7 @@ As last step, the actual measurement of both species is carried out. Pathway A i
 %     \end{itemize}
 % }
 
-Starting off with the raw signals from the A/D-converter, the signal has to be corrected and normalized. Due to knwon and discussed effects of dark signals and different signal intensities from photo diodes, e.g. from differences out of manufacturing, two calibration steps have to be carried out. The dark signal must be substracted from the general intensity (following \autoref{eq:intensity}), the two channels have to be calibrated to each other with the help of an wavelength dependent calibration factor $KF$ (see \autoref{eq:calibration}).
+Starting with the raw signals from the A/D-converter, the signal has to be corrected and normalized. Due to known and discussed effects of dark signals and different signal intensities from photodiodes, e.g. from differences out of manufacturing, two calibration steps have to be carried out. The dark signal must be subtracted from the general intensity (following \autoref{eq:intensity}), and the two channels have to be calibrated to each other with the help of a wavelength-dependent calibration factor $KF$ (see \autoref{eq:calibration}).
 \begin{align}
     I_\mathrm{measurement}&=I_\mathrm{photodiode}+I_\mathrm{dark} \label{eq:intensity} \\[12pt]
     KF(\lambda)&=\frac{I(\lambda)}{I_\mathrm{0}(\lambda)} \label{eq:calibration}
@@ -125,15 +129,15 @@ Since the Transmission ratio $T$, depending on the laser shot intensity $I_\math
 \begin{align}
     T=\frac{I}{I_\mathrm{0}} \nonumber
 \end{align}
-and the Absorption ratio with the substraction of $T$ from one, we can state:
+and the Absorption ratio with the subtraction of $T$ from one, we can state:
 \begin{align}
     A=1-\frac{I}{I_\mathrm{0}} \nonumber
 \end{align}
-Further taking into account both calibration steps, we can develop as Absorption spectra
+Further taking into account both calibration steps, we can develop Absorption spectra
 \begin{align}
     A(\lambda)=1-\frac{(I_\mathrm{A} - I_\mathrm{dark}) \cdot KF(\lambda)}{I_\mathrm{B} - I_\mathrm{dark}} \label{eq:absorption-spectrum}.
 \end{align}
-Determing the extinction coefficient is possible through rearrangeing Lambert-Beer's law (see \autoref{eq:lambert-beer-rearranged}). IMportant to note is the wavelength and temperature dependency of this coefficient, although the last one is kept constant at this experiment. Selected for evaluation of $\epsilon(\lambda)$ are follwing wavelenghts:
+Determining the extinction coefficient is possible by rearrangeing Lambert-Beer's law (see \autoref{eq:lambert-beer-rearranged}). Important to note is the wavelength and temperature dependency of this coefficient, although the last one is kept constant in this experiment. Selected for evaluation of $\epsilon(\lambda)$ are following wavelengths:
 \begin{align}
     \lambda&=[1906, 1950, 1977, 2003]~\mathrm{nm} \nonumber \\[6pt]
     \epsilon(\lambda)&=\frac{log(I_\mathrm{0})-log(I)}{c \cdot d} \label{eq:lambert-beer-rearranged}
@@ -143,7 +147,7 @@ The evaluation procedure is shown in \autoref{fig:scheme-eval}. For this calcula
     \item Measurement signal of the species at every wavelength
     \item Reference spectrum at every wavelength
     \item Dark signal before the measurement
-    \item Simultaneous signal of path A and B at every wavelength
+    \item Simultaneous signal of paths A and B at every wavelength
 \end{enumerate}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -197,7 +201,7 @@ Starting with the calibration measurement to normalize both pathways A and B, th
 %     \end{tabular}
 % \end{table}
 
-The absorption spectra for $\mathrm{DMSO}$ and $\mathrm{EtSO_4}$ are shown in \autoref{fig:rel-absorption}. The wavelengths for determination of the extinction and extinction coefficient are marked as vertical, purple, and dashed lines. It can be observed, that both substances have similar behavior in terms of which wavelengths are more and less absorbed, due to the spectrum shape. It can be added, that $DMSO$ is significantly less absorption active and thus transmits more light. The absolute transmission and absorption are illustrated in \autoref{fig:laser-abs-trans}, while the original laser signal is added. Noticeable is however the very high absorption rate of $\mathrm{EtSO_4}$ in the wavelength region around $1940~\mathrm{nm}$. Another abnormality is the not smooth but rather jumping intensity of the laser incoming, as well transmission and absorption signal. Reasons for that can rely on the laser itself, having more or less efficiencies dependent on the emitted wavelength. Another explanation could be the quantum efficiency of the photodiodes or disturbing substances like fingerprints on the surface of the cuvette.
+The absorption spectra for $\mathrm{DMSO}$ and $\mathrm{EtSO_4}$ are shown in \autoref{fig:rel-absorption}. The wavelengths for determination of the extinction and extinction coefficient are marked as vertical, purple, and dashed lines. It can be observed, that both substances have similar behavior in terms of which wavelengths are more and less absorbed, due to the spectrum shape. The absolute transmission and absorption are illustrated in \autoref{fig:laser-abs-trans}, while the original laser signal is added. Noticeable is however the very high absorption rate of $\mathrm{EtSO_4}$ in the wavelength region around $1940~\mathrm{nm}$. Another abnormality is the not smooth but rather jumping intensity of the laser incoming, as well transmission and absorption signal. Reasons for that can rely on the laser itself, having more or less efficiencies dependent on the emitted wavelength. Another explanation could be the quantum efficiency of the photodiodes or disturbing substances like fingerprints on the surface of the cuvette.
 
 \begin{figure}[H]
     \centering

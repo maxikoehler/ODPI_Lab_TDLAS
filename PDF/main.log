@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.8)  5 FEB 2024 22:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.8)  6 FEB 2024 16:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1645,35 +1645,35 @@ Class scrreprt Warning: \float@addtolists detected!
 
 ]
 chapter 2.
-<images//02kapitel/laser-simple.png, id=105, 402.50375pt x 264.99pt>
+<images//02kapitel/laser-simple.png, id=107, 402.50375pt x 264.99pt>
 File: images//02kapitel/laser-simple.png Graphic file (type png)
 <use images//02kapitel/laser-simple.png>
-Package pdftex.def Info: images//02kapitel/laser-simple.png  used on input line 20.
+Package pdftex.def Info: images//02kapitel/laser-simple.png  used on input line 24.
 (pdftex.def)             Requested size: 227.62209pt x 149.85306pt.
 [2
 
- <./images//02kapitel/laser-simple.png>]
-<images//02kapitel/littrow-laser.png, id=121, 985.6825pt x 778.91pt>
+]
+<images//02kapitel/littrow-laser.png, id=124, 985.6825pt x 778.91pt>
 File: images//02kapitel/littrow-laser.png Graphic file (type png)
 <use images//02kapitel/littrow-laser.png>
-Package pdftex.def Info: images//02kapitel/littrow-laser.png  used on input line 29.
+Package pdftex.def Info: images//02kapitel/littrow-laser.png  used on input line 33.
 (pdftex.def)             Requested size: 318.66953pt x 251.8235pt.
 
 
 LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
-(Font)              using `T1/bch/m/sc' instead on input line 36.
+(Font)              using `T1/bch/m/sc' instead on input line 40.
 
-[3 <./images//02kapitel/littrow-laser.png>]
+[3 <./images//02kapitel/laser-simple.png> <./images//02kapitel/littrow-laser.png>]
 chapter 3.
-<images//02kapitel/measurement_setup.png, id=132, 1398.22375pt x 866.23625pt>
+<images//02kapitel/measurement_setup.png, id=136, 1398.22375pt x 866.23625pt>
 File: images//02kapitel/measurement_setup.png Graphic file (type png)
 <use images//02kapitel/measurement_setup.png>
-Package pdftex.def Info: images//02kapitel/measurement_setup.png  used on input line 50.
+Package pdftex.def Info: images//02kapitel/measurement_setup.png  used on input line 54.
 (pdftex.def)             Requested size: 455.24417pt x 282.02571pt.
 [4
 
  <./images//02kapitel/measurement_setup.png>]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 97.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 101.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
@@ -1682,38 +1682,38 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Overfull \hbox (0.8304pt too wide) in paragraph at lines 97--97
+Overfull \hbox (0.8304pt too wide) in paragraph at lines 101--101
  [][]\T1/cmtt/m/n/10 measurement 
  []
 
 
-Overfull \hbox (0.8304pt too wide) in paragraph at lines 101--101
+Overfull \hbox (0.8304pt too wide) in paragraph at lines 105--105
  [][]\T1/cmtt/m/n/10 calibration 
  []
 
 
 LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
-(Font)              using `T1/bch/m/sc' instead on input line 127.
+(Font)              using `T1/bch/m/sc' instead on input line 131.
 
 [5]
 
 LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
-(Font)              using `T1/bch/m/sc' instead on input line 144.
+(Font)              using `T1/bch/m/sc' instead on input line 149.
 
 [6]
 
 LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
-(Font)              using `T1/bch/m/sc' instead on input line 151.
+(Font)              using `T1/bch/m/sc' instead on input line 155.
 
 [7]
 chapter 4.
 (./images/02kapitel/calibration-factor.pgf)
-Overfull \hbox (7.28339pt too wide) in paragraph at lines 688--164
+Overfull \hbox (7.28339pt too wide) in paragraph at lines 688--168
  [][] 
  []
 
 (./images/02kapitel/rel-absorbtion.pgf)
-Overfull \hbox (7.28339pt too wide) in paragraph at lines 755--205
+Overfull \hbox (7.28339pt too wide) in paragraph at lines 755--209
  [][] 
  []
 
@@ -1722,17 +1722,17 @@ Overfull \hbox (7.28339pt too wide) in paragraph at lines 755--205
 ] (./images/02kapitel/laser-abs-trans.pgf) (./images/02kapitel/extinction.pgf)
 
 LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
-(Font)              using `T1/bch/m/sc' instead on input line 226.
+(Font)              using `T1/bch/m/sc' instead on input line 230.
 
 [9]
 
 LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
-(Font)              using `T1/bch/m/sc' instead on input line 226.
+(Font)              using `T1/bch/m/sc' instead on input line 230.
 
 [10]
 
 LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
-(Font)              using `T1/bch/m/sc' instead on input line 256.
+(Font)              using `T1/bch/m/sc' instead on input line 260.
 
 [11]) (./content/03kapitel.tex
 
@@ -1761,18 +1761,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 58620 strings out of 478268
- 1326901 string characters out of 5846347
+ 58605 strings out of 478268
+ 1326772 string characters out of 5846347
  2386816 words of memory out of 5000000
  75500 multiletter control sequences out of 15000+600000
- 528066 words of font info for 207 fonts, out of 8000000 for 9000
+ 526766 words of font info for 197 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  113i,20n,109p,10669b,2469s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on PDF/main.pdf (19 pages, 990094 bytes).
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on PDF/main.pdf (19 pages, 997882 bytes).
 PDF statistics:
- 320 PDF objects out of 1000 (max. 8388607)
- 248 compressed objects within 3 object streams
+ 327 PDF objects out of 1000 (max. 8388607)
+ 253 compressed objects within 3 object streams
  61 named destinations out of 1000 (max. 500000)
  46198 words of extra memory for PDF output out of 51595 (max. 10000000)
 
